@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Table</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="TableWithSortingAndFiltering.css" type="text/css">
+</head>
+<body>
+    <table id="productTable" class="display">
+        <thead>
+            <tr>
+                <th>Product Name <span class="sorting-icons"><i class="fas fa-caret-up"></i><i class="fas fa-caret-down"></i></span></th>
+                <th>Category <span class="sorting-icons"><i class="fas fa-caret-up"></i><i class="fas fa-caret-down"></i></span></th>
+                <th>Price <span class="sorting-icons"><i class="fas fa-caret-up"></i><i class="fas fa-caret-down"></i></span></th>
+                <th>Stock Status <span class="sorting-icons"><i class="fas fa-caret-up"></i><i class="fas fa-caret-down"></i></span></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Laptop</td><td>Electronics</td><td>999.99</td><td>In Stock</td></tr>
+            <tr><td>Smartphone</td><td>Electronics</td><td>599.99</td><td>In Stock</td></tr>
+            <tr><td>Headphones</td><td>Electronics</td><td>149.99</td><td>Out of Stock</td></tr>
+            <tr><td>T-shirt</td><td>Clothing</td><td>19.99</td><td>In Stock</td></tr>
+            <tr><td>Jeans</td><td>Clothing</td><td>49.99</td><td>In Stock</td></tr>
+            <tr><td>Smartwatch</td><td>Electronics</td><td>299.99</td><td>In Stock</td></tr>
+            <tr><td>Running Shoes</td><td>Footwear</td><td>89.99</td><td>In Stock</td></tr>
+            <tr><td>Backpack</td><td>Accessories</td><td>59.99</td><td>In Stock</td></tr>
+            <tr><td>Desk Lamp</td><td>Home & Office</td><td>39.99</td><td>Out of Stock</td></tr>
+            <tr><td>Wireless Mouse</td><td>Electronics</td><td>29.99</td><td>In Stock</td></tr>
+            <tr><td>Coffee Maker</td><td>Home & Kitchen</td><td>79.99</td><td>In Stock</td></tr>
+            <tr><td>Yoga Mat</td><td>Sports & Fitness</td><td>24.99</td><td>In Stock</td></tr>
+        </tbody>
+    </table>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script src="TableWithSortingAndFiltering.js"></script>
+        
+</body>
+</html>

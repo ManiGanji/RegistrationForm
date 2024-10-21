@@ -1,0 +1,68 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-image: url("https://img.freepik.com/free-photo/shopping-cart-with-wooden-elements_23-2148879396.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            
+        }
+        thead{
+            background-color: rgb(101, 184, 80);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 30px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:nth-child(even) {
+            background-color: #f6f9f6;
+        }
+        tr:hover {
+            background-color: #eaeeeb;
+        }
+        .dataTables_wrapper .dataTables_filter {
+            float: right;
+            margin-bottom: 10px;
+        }
+        .dataTables_wrapper .dataTables_filter input {
+            padding: 5px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        .sorting-icons {
+            margin-left: 5px;
+            display: inline-block;
+            width: 15px;
+        }
+        .sorting-icons i {
+            display: block;
+            font-size: 0.8em;
+            line-height: 0.8em;
+            color: #ccc;
+        }
+        .sorting-icons i.active {
+            color: #000;
+        }
+        th {
+            cursor: pointer;
+        }
+        .dataTables_paginate {
+            margin-top: 10px;
+        }
+        .dataTables_paginate .paginate_button {
+            padding: 5px 10px;
+            margin: 0 2px;
+            border: 1px solid #ddd;
+            cursor: pointer;
+        }
+        .dataTables_paginate .paginate_button.current {
+            background-color: #f2f2f2;
+        }
+    
